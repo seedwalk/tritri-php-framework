@@ -1,0 +1,72 @@
+/*
+
+
+
+MEDIA QUERIES
+
+
+
+*/
+
+
+
+@media (max-width: 704px) {
+	#mapaContainer{
+		position: absolute;
+		width: 100%;
+		left: 0;
+		margin-left: 0px;
+		height: 708px;
+		top:20px;
+		margin-top: 0;
+		box-sizing: border-box;
+		margin-bottom: 80px;
+	}
+	.loginTip {
+		display: none; 
+	}
+}
+
+
+@media (max-width: 640px) {
+	.islaFlotante {
+		display: none;
+	}
+}
+
+/*
+
+@media (max-width: 591px) {
+	.loginBtn {
+		top:20px;
+	}
+}
+
+@media (max-width: 591px) {
+	.loginBtn {
+		top:20px;
+	}
+}
+@media (max-width: 458px) {
+	.islaFlotante
+	{
+		position: absolute;
+		width: 100%;
+		height: 403px;
+		top:0;
+		left: 0px;
+		margin-left: 0px;
+		background: url(../img/mapa.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+	}
+}
+
+@media (max-width: 454px) {
+	.loginBtn {
+		top: 20px;
+		width: 225px;
+	}
+}*/

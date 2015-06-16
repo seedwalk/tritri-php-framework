@@ -1,0 +1,25 @@
+
+#bar-chart-legend > ul > li  > span{
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+#bar-chart-legend > ul
+{
+list-style-type: none;
+}
+
+.progress-bar { 
+	background-color: #c7197a;
+}
+
+.pregunta-holder {
+	margin-bottom: 20px;
+}
+.respuestas-holder {
+	background-color: #f1f4f7;
+	padding: 20px;
+}

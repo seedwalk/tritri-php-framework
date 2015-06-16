@@ -1,0 +1,3075 @@
+clientdealstatus.active=Activo
+
+
+
+clientdealstatus.closed=Cerrado
+
+
+
+
+
+
+
+invoice.Date=Fecha
+
+
+
+invoice.Number= Factura No.
+
+
+
+invoice.Billto=Facturar a:
+
+
+
+invoice.Terms=Términos
+
+
+
+invoice.DueDate=Vencimiento
+
+
+
+invoice.PurchaseOrder=Orden de Compra
+
+
+
+invoice.Quantity=Cantidad
+
+
+
+invoice.Items=Detalle
+
+
+
+invoice.Amount=Monto
+
+
+
+invoice.TotalDue=Total
+
+
+
+invoice.WireTransferInstructions=Instrucciones para transferencia
+
+
+
+invoice.status.notreadytocollect=En proceso
+
+
+
+invoice.status.readytocollect=Cobrar
+
+
+
+invoice.status.collected=Cobrado
+
+
+
+invoice.status.collectiondateexpired=Fecha de Cobro expirada
+
+
+
+
+
+
+
+
+
+
+
+country.name.AFGHANISTAN=Afganistán
+
+
+
+country.name.ALANDISLANDS=Islas Åland
+
+
+
+country.name.ALBANIA=Albania
+
+
+
+country.name.ALGERIA=Argelia
+
+
+
+country.name.AMERICANSAMOA=Samoa Americana
+
+
+
+country.name.ANDORRA=Andorra
+
+
+
+country.name.ANGOLA=Angola
+
+
+
+country.name.ANGUILLA=Anguila
+
+
+
+country.name.ANTARCTICA=Antártida
+
+
+
+country.name.ANTIGUAANDBARBUDA=Antigua y Barbuda
+
+
+
+country.name.ARGENTINA=Argentina
+
+
+
+country.name.ARMENIA=Armenia
+
+
+
+country.name.ARUBA=Aruba
+
+
+
+country.name.AUSTRALIA=Australia
+
+
+
+country.name.AUSTRIA=Austria
+
+
+
+country.name.AZERBAIJAN=Azerbaijan
+
+
+
+country.name.BAHAMAS=Bahamas
+
+
+
+country.name.BAHRAIN=Bahrein
+
+
+
+country.name.BANGLADESH=Bangladesh
+
+
+
+country.name.BARBADOS=Barbados
+
+
+
+country.name.BELARUS=Bielorrusia
+
+
+
+country.name.BELGIUM=Bélgica
+
+
+
+country.name.BELIZE=Belice
+
+
+
+country.name.BENIN=Benín
+
+
+
+country.name.BERMUDA=Bermudas
+
+
+
+country.name.BHUTAN=Bután
+
+
+
+country.name.BOLIVIA=Bolivia
+
+
+
+country.name.BONAIRE,SINTEUSTATIUSANDSABA=Bonaire, San Eustaquio y Saba
+
+
+
+country.name.BOSNIAANDHERZEGOVINA=Bosnia y Herzegovina
+
+
+
+country.name.BOTSWANA=Botsuana
+
+
+
+country.name.BOUVETISLAND=Isla Bouvet
+
+
+
+country.name.BRAZIL=Brasil
+
+
+
+country.name.BRITISHINDIANOCEANTERRITORY=Territorio Británico del Océano Índico
+
+
+
+country.name.BRUNEIDARUSSALAM=Brunéi Darussalam
+
+
+
+country.name.BULGARIA=Bulgaria
+
+
+
+country.name.BURKINAFASO=Burkina Faso
+
+
+
+country.name.BURUNDI=Burundi
+
+
+
+country.name.CAMBODIA=Camboya
+
+
+
+country.name.CAMEROON=Camerún
+
+
+
+country.name.CANADA=Canadá
+
+
+
+country.name.CAPEVERDE=Cabo Verde
+
+
+
+country.name.CAYMANISLANDS=Islas Caimán
+
+
+
+country.name.CENTRALAFRICANREPUBLIC=República Centroafricana
+
+
+
+country.name.CHAD=Chad
+
+
+
+country.name.CHILE=Chile
+
+
+
+country.name.CHINA=China
+
+
+
+country.name.CHRISTMASISLAND=Isla de Navidad
+
+
+
+country.name.COCOS(KEELING)ISLANDS=Islas Cocos (Keeling)
+
+
+
+country.name.COLOMBIA=Colombia
+
+
+
+country.name.COMOROS=Comora
+
+
+
+country.name.CONGO=Congo
+
+
+
+country.name.COOKISLANDS=Islas Cook
+
+
+
+country.name.COSTARICA=Costa Rica
+
+
+
+country.name.COTEDIVOIRE=Costa de Marfil
+
+
+
+country.name.CROATIA=Croacia
+
+
+
+country.name.CUBA=Cuba
+
+
+
+country.name.CURACAO=Curaçao
+
+
+
+country.name.CYPRUS=Chipre
+
+
+
+country.name.CZECHREPUBLIC=República Checa
+
+
+
+country.name.DENMARK=Dinamarca
+
+
+
+country.name.DJIBOUTI=Djibuti
+
+
+
+country.name.DOMINICA=Dominica
+
+
+
+country.name.DOMINICANREPUBLIC=República Dominicana
+
+
+
+country.name.ECUADOR=Ecuador
+
+
+
+country.name.EGYPT=Egipto
+
+
+
+country.name.ELSALVADOR=El Salvador
+
+
+
+country.name.EQUATORIALGUINEA=Guinea Ecuatorial
+
+
+
+country.name.ERITREA=Eritrea
+
+
+
+country.name.ESTONIA=Estonia
+
+
+
+country.name.ETHIOPIA=Etiopía
+
+
+
+country.name.FALKLANDISLANDS(MALVINAS)=Islas Malvinas
+
+
+
+country.name.FAROEISLANDS=Islas Faroe
+
+
+
+country.name.FIJI=Fiyi
+
+
+
+country.name.FINLAND=Finlandia
+
+
+
+country.name.FRANCE=Francia
+
+
+
+country.name.FRENCHGUIANA=Guayana Francesa
+
+
+
+country.name.FRENCHPOLYNESIA=Polinesia Francesa
+
+
+
+country.name.FRENCHSOUTHERNTERRITORIES=Territorios Australes Franceses
+
+
+
+country.name.GABON=Gabón
+
+
+
+country.name.GAMBIA=Gambia
+
+
+
+country.name.GEORGIA=Georgia
+
+
+
+country.name.GERMANY=Alemania
+
+
+
+country.name.GHANA=Ghana
+
+
+
+country.name.GIBRALTAR=Gibraltar
+
+
+
+country.name.GREECE=Grecia
+
+
+
+country.name.GREENLAND=Groenlandia
+
+
+
+country.name.GRENADA=Granada
+
+
+
+country.name.GUADELOUPE=Guadalupe
+
+
+
+country.name.GUAM=Guam
+
+
+
+country.name.GUATEMALA=Guatemala
+
+
+
+country.name.GUERNSEY=Guernsey
+
+
+
+country.name.GUINEA=Guinea
+
+
+
+country.name.GUINEA-BISSAU=Guinea-Bissau
+
+
+
+country.name.GUYANA=Guyana
+
+
+
+country.name.HAITI=Haití
+
+
+
+country.name.HEARDISLANDANDMCDONALDISLANDS=Isla Heard e Islas McDonald
+
+
+
+country.name.HOLYSEE(VATICANCITYSTATE)=Santa Sede [Estado de la Ciudad del Vaticano]
+
+
+
+country.name.HONDURAS=Honduras
+
+
+
+country.name.HONGKONG=Hong Kong
+
+
+
+country.name.HUNGARY=Hungría
+
+
+
+country.name.ICELAND=Islandia
+
+
+
+country.name.INDIA=India
+
+
+
+country.name.INDONESIA=Indonesia
+
+
+
+country.name.IRAN,ISLAMICREPUBLICOF=Irán
+
+
+
+country.name.IRAQ=Irak
+
+
+
+country.name.IRELAND=Irlanda
+
+
+
+country.name.ISLEOFMAN=Isla de Man
+
+
+
+country.name.ISRAEL=Israel
+
+
+
+country.name.ITALY=Italia
+
+
+
+country.name.JAMAICA=Jamaica
+
+
+
+country.name.JAPAN=Japón
+
+
+
+country.name.JERSEY=Jersey
+
+
+
+country.name.JORDAN=Jordania
+
+
+
+country.name.KAZAKHSTAN=Kazajistán
+
+
+
+country.name.KENYA=Kenia
+
+
+
+country.name.KIRIBATI=Kiribati
+
+
+
+country.name.KOREA,DEMOCRATICPEOPLE'SREPUBLICOF=República Democrática Popular de Corea
+
+
+
+country.name.KOREA,REPUBLICOF=República de Corea 
+
+
+
+country.name.KUWAIT=Kuwait
+
+
+
+country.name.KYRGYZSTAN=Kirguistán
+
+
+
+country.name.LAOPEOPLE'SDEMOCRATICREPUBLIC=República Democrática Popular de Laos
+
+
+
+country.name.LATVIA=Letonia
+
+
+
+country.name.LEBANON=Líbano
+
+
+
+country.name.LESOTHO=Lesoto
+
+
+
+country.name.LIBERIA=Liberia
+
+
+
+country.name.LIBYA=Libia
+
+
+
+country.name.LIECHTENSTEIN=Liechtenstein
+
+
+
+country.name.LITHUANIA=Lituania
+
+
+
+country.name.LUXEMBOURG=Luxemburgo
+
+
+
+country.name.MACAO=Macao
+
+
+
+country.name.MACEDONIA,THEFORMERYUGOSLAVREPUBLICOF=Macedonia
+
+
+
+country.name.MADAGASCAR=Madagascar
+
+
+
+country.name.MALAWI=Malaui
+
+
+
+country.name.MALAYSIA=Malasia
+
+
+
+country.name.MALDIVES=Maldivas
+
+
+
+country.name.MALI=Malí
+
+
+
+country.name.MALTA=Malta
+
+
+
+country.name.MARSHALLISLANDS=Islas Marshall
+
+
+
+country.name.MARTINIQUE=Martinica
+
+
+
+country.name.MAURITANIA=Mauritania
+
+
+
+country.name.MAURITIUS=Mauricio
+
+
+
+country.name.MAYOTTE=Mayotte
+
+
+
+country.name.MEXICO=México
+
+
+
+country.name.MICRONESIA,FEDERATEDSTATESOF=Estados Federados de Micronesia
+
+
+
+country.name.MOLDOVA,REPUBLICOF=República de Moldavia
+
+
+
+country.name.MONACO=Mónaco
+
+
+
+country.name.MONGOLIA=Mongolia
+
+
+
+country.name.MONTENEGRO=Montenegro
+
+
+
+country.name.MONTSERRAT=Montserrat
+
+
+
+country.name.MOROCCO=Marruecos
+
+
+
+country.name.MOZAMBIQUE=Mozambique
+
+
+
+country.name.MYANMAR=Myanmar
+
+
+
+country.name.NAMIBIA=Namibia
+
+
+
+country.name.NAURU=Nauru
+
+
+
+country.name.NEPAL=Nepal
+
+
+
+country.name.NETHERLANDS=Países Bajos
+
+
+
+country.name.NEWCALEDONIA=Nueva Caledonia
+
+
+
+country.name.NEWZEALAND=Nueva Zelanda
+
+
+
+country.name.NICARAGUA=Nicaragua
+
+
+
+country.name.NIGER=Níger
+
+
+
+country.name.NIGERIA=Nigeria
+
+
+
+country.name.NIUE=Niue
+
+
+
+country.name.NORFOLKISLAND=Isla Norfolk
+
+
+
+country.name.NORTHERNMARIANAISLANDS=Islas Marianas del Norte
+
+
+
+country.name.NORWAY=Noruega
+
+
+
+country.name.OMAN=Omán
+
+
+
+country.name.PAKISTAN=Pakistán
+
+
+
+country.name.PALAU=Palaos
+
+
+
+country.name.PALESTINE,STATEOF=Estado de Palestina 
+
+
+
+country.name.PANAMA=Panamá
+
+
+
+country.name.PAPUANEWGUINEA=Papúa Nueva Guinea
+
+
+
+country.name.PARAGUAY=Paraguay
+
+
+
+country.name.PERU=Perú
+
+
+
+country.name.PHILIPPINES=Filipinas
+
+
+
+country.name.PITCAIRN=Pitcairn
+
+
+
+country.name.POLAND=Polonia
+
+
+
+country.name.PORTUGAL=Portugal
+
+
+
+country.name.PUERTORICO=Puerto Rico
+
+
+
+country.name.QATAR=Catar
+
+
+
+country.name.REUNION=Reunión
+
+
+
+country.name.ROMANIA=Rumania
+
+
+
+country.name.RUSSIANFEDERATION=Federación de Rusia
+
+
+
+country.name.RWANDA=Ruanda
+
+
+
+country.name.SAINTBARTHELEMY=San Bartolomé
+
+
+
+country.name.SAINTHELENA,ASCENSIONANDTRISTANDACUNHA=Santa Helena, Ascensión y Tristán de Acuña
+
+
+
+country.name.SAINTKITTSANDNEVIS=San Cristóbal y Nieves
+
+
+
+country.name.SAINTLUCIA=Santa Lucía
+
+
+
+country.name.SAINTMARTIN(FRENCHPART)=San Martín (parte francesa)
+
+
+
+country.name.SAINTPIERREANDMIQUELON=San Pedro y Miquelón
+
+
+
+country.name.SAINTVINCENTANDTHEGRENADINES=San Vicente y las Granadinas
+
+
+
+country.name.SAMOA=Samoa
+
+
+
+country.name.SANMARINO=San Marino
+
+
+
+country.name.SAOTOMEANDPRINCIPE=Santo Tomé y Príncipe
+
+
+
+country.name.SAUDIARABIA=Arabia Saudita
+
+
+
+country.name.SENEGAL=Senegal
+
+
+
+country.name.SERBIA=Serbia
+
+
+
+country.name.SEYCHELLES=Seychelles
+
+
+
+country.name.SIERRALEONE=Sierra leona
+
+
+
+country.name.SINGAPORE=Singapur
+
+
+
+country.name.SINTMAARTEN(DUTCHPART)=Sint Maarten (parte holandesa)
+
+
+
+country.name.SLOVAKIA=Eslovaquia
+
+
+
+country.name.SLOVENIA=Eslovenia
+
+
+
+country.name.SOLOMONISLANDS=Islas Salomón
+
+
+
+country.name.SOMALIA=Somalia
+
+
+
+country.name.SOUTHAFRICA=Sudáfrica
+
+
+
+country.name.SOUTHGEORGIAANDTHESOUTHSANDWICHISLANDS=Georgia del sur y las islas sandwich del sur
+
+
+
+country.name.SOUTHSUDAN=Sudán del Sur
+
+
+
+country.name.SPAIN=España
+
+
+
+country.name.SRILANKA=Sri Lanka
+
+
+
+country.name.SUDAN=Sudán
+
+
+
+country.name.SURINAME=Surinam
+
+
+
+country.name.SVALBARDANDJANMAYEN=Svalbard y Jan Mayen
+
+
+
+country.name.SWAZILAND=Suazilandia
+
+
+
+country.name.SWEDEN=Suecia
+
+
+
+country.name.SWITZERLAND=Suiza
+
+
+
+country.name.SYRIANARABREPUBLIC=República Árabe Siria
+
+
+
+country.name.TAIWAN,PROVINCEOFCHINA=Taiwán
+
+
+
+country.name.TAJIKISTAN=Tayikistán
+
+
+
+country.name.TANZANIA,UNITEDREPUBLICOF=República Unida de Tanzania
+
+
+
+country.name.THAILAND=Tailandia
+
+
+
+country.name.TIMOR-LESTE=Timor-Leste
+
+
+
+country.name.TOGO=Togo
+
+
+
+country.name.TOKELAU=Tokelau
+
+
+
+country.name.TONGA=Tonga
+
+
+
+country.name.TRINIDADANDTOBAGO=Trinidad y Tobago
+
+
+
+country.name.TUNISIA=Túnez
+
+
+
+country.name.TURKEY=Turquía
+
+
+
+country.name.TURKMENISTAN=Turkmenistán
+
+
+
+country.name.TURKSANDCAICOSISLANDS=Islas Turcas y Caicos
+
+
+
+country.name.TUVALU=Tuvalu
+
+
+
+country.name.UGANDA=Uganda
+
+
+
+country.name.UKRAINE=Ucrania
+
+
+
+country.name.UNITEDARABEMIRATES=Emiratos Árabes Unidos
+
+
+
+country.name.UNITEDKINGDOM=Reino Unido
+
+
+
+country.name.UNITEDSTATES=Estados Unidos
+
+
+
+country.name.URUGUAY=Uruguay
+
+
+
+country.name.UZBEKISTAN=Uzbekistán
+
+
+
+country.name.VANUATU=Vanuatu
+
+
+
+country.name.VENEZUELA,BOLIVARIANREPUBLICOF=República Bolivariana de Venezuela
+
+
+
+country.name.VIETNAM=Viet Nam
+
+
+
+country.name.VIRGINISLANDS,BRITISH=Islas Vírgenes (Británicas)
+
+
+
+country.name.VIRGINISLANDS,U.S.=Islas Vírgenes (EE.UU.)
+
+
+
+country.name.WALLISANDFUTUNA=Wallis y Futuna
+
+
+
+country.name.WESTERNSAHARA=Sahara Occidental
+
+
+
+country.name.YEMEN=Yemen
+
+
+
+country.name.ZAMBIA=Zambia
+
+
+
+country.name.ZIMBABWEcountry.name.=Zimbabue
+
+
+
+country.region.Africa=Africa
+
+
+
+country.region.Antarctica=Antártida
+
+
+
+country.region.Asia=Asia
+
+
+
+country.region.AustraliaandOceania=Australia y Oceanía
+
+
+
+country.region.CentralAmericaandtheCaribbean=América Central y Caribe
+
+
+
+country.region.Europe=Europa
+
+
+
+country.region.MiddleEast,NorthAfricaandGreaterArabia=Medio Este, Africa del Norte y Arabia
+
+
+
+country.region.NorthAmerica=América del Norte
+
+
+
+country.region.SouthAmerica=América del Sur
+
+
+
+
+
+currency.UnitedStatesDollar=United States Dollar
+
+
+
+currency.Euro=Euro
+
+
+
+currency.CanadaDollar=Canada Dollar
+
+
+
+currency.UnitedKingdomPound=United Kingdom Pound
+
+
+
+currency.AustraliaDollar=Australia Dollar
+
+
+
+currency.NewZealandDollar=New Zealand Dollar
+
+
+
+currency.MexicoPeso=Mexico Peso
+
+
+
+currency.BrazilReal=Brazil Real
+
+
+
+currency.ArgentinaPeso=Argentina Peso
+
+
+
+currency.UnitedArabEmiratesDirham=United Arab Emirates Dirham
+
+
+
+currency.AfghanistanAfghani=Afghanistan Afghani
+
+
+
+currency.AlbaniaLek=Albania Lek
+
+
+
+currency.ArmeniaDram=Armenia Dram
+
+
+
+currency.NetherlandsAntillesGuilder=Netherlands Antilles Guilder
+
+
+
+currency.AngolaKwanza=Angola Kwanza
+
+
+
+currency.ArubaGuilder=Aruba Guilder
+
+
+
+currency.AzerbaijanNewManat=Azerbaijan New Manat
+
+
+
+currency.BosniaandHerzegovinaConvertibleMarka=Bosnia and Herzegovina Convertible Marka
+
+
+
+currency.BarbadosDollar=Barbados Dollar
+
+
+
+currency.BangladeshTaka=Bangladesh Taka
+
+
+
+currency.BulgariaLev=Bulgaria Lev
+
+
+
+currency.BahrainDinar=Bahrain Dinar
+
+
+
+currency.BurundiFranc=Burundi Franc
+
+
+
+currency.BermudaDollar=Bermuda Dollar
+
+
+
+currency.BruneiDarussalamDollar=Brunei Darussalam Dollar
+
+
+
+currency.BoliviaBoliviano=Bolivia Boliviano
+
+
+
+currency.BahamasDollar=Bahamas Dollar
+
+
+
+currency.BhutanNgultrum=Bhutan Ngultrum
+
+
+
+currency.BotswanaPula=Botswana Pula
+
+
+
+currency.BelarusRuble=Belarus Ruble
+
+
+
+currency.BelizeDollar=Belize Dollar
+
+
+
+currency.Congo/KinshasaFranc=Congo/Kinshasa Franc
+
+
+
+currency.SwitzerlandFranc=Switzerland Franc
+
+
+
+currency.ChilePeso=Chile Peso
+
+
+
+currency.ChinaYuanRenminbi=China Yuan Renminbi
+
+
+
+currency.ColombiaPeso=Colombia Peso
+
+
+
+currency.CostaRicaColon=Costa Rica Colon
+
+
+
+currency.CubaConvertiblePeso=Cuba Convertible Peso
+
+
+
+currency.CubaPeso=Cuba Peso
+
+
+
+currency.CapeVerdeEscudo=Cape Verde Escudo
+
+
+
+currency.CzechRepublicKoruna=Czech Republic Koruna
+
+
+
+currency.DjiboutiFranc=Djibouti Franc
+
+
+
+currency.DenmarkKrone=Denmark Krone
+
+
+
+currency.DominicanRepublicPeso=Dominican Republic Peso
+
+
+
+currency.AlgeriaDinar=Algeria Dinar
+
+
+
+currency.EgyptPound=Egypt Pound
+
+
+
+currency.EritreaNakfa=Eritrea Nakfa
+
+
+
+currency.EthiopiaBirr=Ethiopia Birr
+
+
+
+currency.FijiDollar=Fiji Dollar
+
+
+
+currency.FalklandIslands(Malvinas)Pound=Falkland Islands (Malvinas) Pound
+
+
+
+currency.GeorgiaLari=Georgia Lari
+
+
+
+currency.GuernseyPound=Guernsey Pound
+
+
+
+currency.GhanaCedi=Ghana Cedi
+
+
+
+currency.GibraltarPound=Gibraltar Pound
+
+
+
+currency.GambiaDalasi=Gambia Dalasi
+
+
+
+currency.GuineaFranc=Guinea Franc
+
+
+
+currency.GuatemalaQuetzal=Guatemala Quetzal
+
+
+
+currency.GuyanaDollar=Guyana Dollar
+
+
+
+currency.HongKongDollar=Hong Kong Dollar
+
+
+
+currency.HondurasLempira=Honduras Lempira
+
+
+
+currency.CroatiaKuna=Croatia Kuna
+
+
+
+currency.HaitiGourde=Haiti Gourde
+
+
+
+currency.HungaryForint=Hungary Forint
+
+
+
+currency.IndonesiaRupiah=Indonesia Rupiah
+
+
+
+currency.IsraelShekel=Israel Shekel
+
+
+
+currency.IsleofManPound=Isle of Man Pound
+
+
+
+currency.IndiaRupee=India Rupee
+
+
+
+currency.IraqDinar=Iraq Dinar
+
+
+
+currency.IranRial=Iran Rial
+
+
+
+currency.IcelandKrona=Iceland Krona
+
+
+
+currency.JerseyPound=Jersey Pound
+
+
+
+currency.JamaicaDollar=Jamaica Dollar
+
+
+
+currency.JordanDinar=Jordan Dinar
+
+
+
+currency.JapanYen=Japan Yen
+
+
+
+currency.KenyaShilling=Kenya Shilling
+
+
+
+currency.KyrgyzstanSom=Kyrgyzstan Som
+
+
+
+currency.CambodiaRiel=Cambodia Riel
+
+
+
+currency.ComorosFranc=Comoros Franc
+
+
+
+currency.Korea(North)Won=Korea (North) Won
+
+
+
+currency.Korea(South)Won=Korea (South) Won
+
+
+
+currency.KuwaitDinar=Kuwait Dinar
+
+
+
+currency.CaymanIslandsDollar=Cayman Islands Dollar
+
+
+
+currency.KazakhstanTenge=Kazakhstan Tenge
+
+
+
+currency.LaosKip=Laos Kip
+
+
+
+currency.LebanonPound=Lebanon Pound
+
+
+
+currency.SriLankaRupee=Sri Lanka Rupee
+
+
+
+currency.LiberiaDollar=Liberia Dollar
+
+
+
+currency.LesothoLoti=Lesotho Loti
+
+
+
+currency.LithuaniaLitas=Lithuania Litas
+
+
+
+currency.LatviaLat=Latvia Lat
+
+
+
+currency.LibyaDinar=Libya Dinar
+
+
+
+currency.MoroccoDirham=Morocco Dirham
+
+
+
+currency.MoldovaLeu=Moldova Leu
+
+
+
+currency.MadagascarAriary=Madagascar Ariary
+
+
+
+currency.MacedoniaDenar=Macedonia Denar
+
+
+
+currency.Myanmar(Burma)Kyat=Myanmar (Burma) Kyat
+
+
+
+currency.MongoliaTughrik=Mongolia Tughrik
+
+
+
+currency.MacauPataca=Macau Pataca
+
+
+
+currency.MauritaniaOuguiya=Mauritania Ouguiya
+
+
+
+currency.MauritiusRupee=Mauritius Rupee
+
+
+
+currency.Maldives(MaldiveIslands)Rufiyaa=Maldives (Maldive Islands) Rufiyaa
+
+
+
+currency.MalawiKwacha=Malawi Kwacha
+
+
+
+currency.MalaysiaRinggit=Malaysia Ringgit
+
+
+
+currency.MozambiqueMetical=Mozambique Metical
+
+
+
+currency.NamibiaDollar=Namibia Dollar
+
+
+
+currency.NigeriaNaira=Nigeria Naira
+
+
+
+currency.NicaraguaCordoba=Nicaragua Cordoba
+
+
+
+currency.NorwayKrone=Norway Krone
+
+
+
+currency.NepalRupee=Nepal Rupee
+
+
+
+currency.OmanRial=Oman Rial
+
+
+
+currency.PanamaBalboa=Panama Balboa
+
+
+
+currency.PeruNuevoSol=Peru Nuevo Sol
+
+
+
+currency.PapuaNewGuineaKina=Papua New Guinea Kina
+
+
+
+currency.PhilippinesPeso=Philippines Peso
+
+
+
+currency.PakistanRupee=Pakistan Rupee
+
+
+
+currency.PolandZloty=Poland Zloty
+
+
+
+currency.ParaguayGuarani=Paraguay Guarani
+
+
+
+currency.QatarRiyal=Qatar Riyal
+
+
+
+currency.RomaniaNewLeu=Romania New Leu
+
+
+
+currency.SerbiaDinar=Serbia Dinar
+
+
+
+currency.RussiaRuble=Russia Ruble
+
+
+
+currency.RwandaFranc=Rwanda Franc
+
+
+
+currency.SaudiArabiaRiyal=Saudi Arabia Riyal
+
+
+
+currency.SolomonIslandsDollar=Solomon Islands Dollar
+
+
+
+currency.SeychellesRupee=Seychelles Rupee
+
+
+
+currency.SudanPound=Sudan Pound
+
+
+
+currency.SwedenKrona=Sweden Krona
+
+
+
+currency.SingaporeDollar=Singapore Dollar
+
+
+
+currency.SaintHelenaPound=Saint Helena Pound
+
+
+
+currency.SierraLeoneLeone=Sierra Leone Leone
+
+
+
+currency.SomaliaShilling=Somalia Shilling
+
+
+
+currency.SurinameDollar=Suriname Dollar
+
+
+
+currency.SãoToméandPríncipeDobra=São Tomé and Príncipe Dobra
+
+
+
+currency.ElSalvadorColon=El Salvador Colon
+
+
+
+currency.SyriaPound=Syria Pound
+
+
+
+currency.SwazilandLilangeni=Swaziland Lilangeni
+
+
+
+currency.ThailandBaht=Thailand Baht
+
+
+
+currency.TajikistanSomoni=Tajikistan Somoni
+
+
+
+currency.TurkmenistanManat=Turkmenistan Manat
+
+
+
+currency.TunisiaDinar=Tunisia Dinar
+
+
+
+currency.TongaPa'anga=Tonga Pa'anga
+
+
+
+currency.TurkeyLira=Turkey Lira
+
+
+
+currency.TrinidadandTobagoDollar=Trinidad and Tobago Dollar
+
+
+
+currency.TuvaluDollar=Tuvalu Dollar
+
+
+
+currency.TaiwanNewDollar=Taiwan New Dollar
+
+
+
+currency.TanzaniaShilling=Tanzania Shilling
+
+
+
+currency.UkraineHryvna=Ukraine Hryvna
+
+
+
+currency.UgandaShilling=Uganda Shilling
+
+
+
+currency.UruguayPeso=Uruguay Peso
+
+
+
+currency.UzbekistanSom=Uzbekistan Som
+
+
+
+currency.VenezuelaBolivar=Venezuela Bolivar
+
+
+
+currency.VietNamDong=Viet Nam Dong
+
+
+
+currency.VanuatuVatu=Vanuatu Vatu
+
+
+
+currency.SamoaTala=Samoa Tala
+
+
+
+currency.EastCaribbeanDollar=East Caribbean Dollar
+
+
+
+currency.YemenRial=Yemen Rial
+
+
+
+currency.SouthAfricaRand=South Africa Rand
+
+
+
+currency.ZambiaKwacha=Zambia Kwacha
+
+
+
+currency.ZimbabweDollar=Zimbabwe Dollar
+
+
+
+
+
+
+
+expense.category.car=Automóvil
+
+
+
+expense.category.housing=Vivienda
+
+
+
+expense.category.generalbusiness=Gastos de Negocios
+
+
+
+expense.category.transportation=Movilidad
+
+
+
+expense.category.food=Comida
+
+
+
+expense.category.utilities=Servicios
+
+
+
+expense.category.clothing=Ropa
+
+
+
+expense.category.health=Salud
+
+
+
+expense.category.childcare=Cuidado de los hijos
+
+
+
+expense.category.charitabledonations=Caridad - Donaciones
+
+
+
+expense.category.installments= Cuotas
+
+
+
+expense.category.education= Educación
+
+
+
+expense.category.recreationandfitness= Recreación - Gimnasio
+
+
+
+expense.category.miscelaneous= Misceláneos
+
+
+
+expense.category.giftsandcontributions=Regalos y Contribuciones
+
+
+
+expense.category.householdsupplies=Suministros para el Hogar
+
+
+
+expense.category.householdmaintenance=Mantenimiento del Hogar
+
+
+
+expense.category.personalcare=Cuidado Personal
+
+
+
+expense.category.vacation= Vacaciones
+
+
+
+expense.category.meal=Comida
+
+
+
+expense.category.planeticket=Pasajes
+
+
+
+expense.category.transportation= Movilidad
+
+
+
+expense.category.fuel/milage=Combustible / Kilometraje
+
+
+
+expense.category.entertainment=Entretenimiento
+
+
+
+expense.category.lodging=Alojamiento
+
+
+
+expense.category.meetings=Reuniones
+
+
+
+expense.category.printings=Impresiones
+
+
+
+expense.category.others=Otros
+
+
+
+
+
+
+
+expenses.type.projectrelated=Gastos de Proyecto
+
+
+
+expenses.type.personal=Gastos Personales
+
+
+
+
+
+
+
+reports.default.title=Reportes
+
+
+
+reports.pnlproject=P & L por Proyecto 
+
+
+
+reports.pnlpersonal=P & L Personal
+
+
+
+reports.expenseproject=Gastos por Proyecto
+
+
+
+reports.invoiceproject=Facturación por Proyecto
+
+
+
+reports.billablevsnonbillable=Gastos Facturables vs No Facturables
+
+
+
+reports.marginvsusers=Margen por proyecto
+
+
+
+reports.cobranzas=Cobranzas
+
+
+
+reports.expensepersonal=Gastos Personales
+
+
+
+
+
+
+
+
+
+
+
+reports.description.pnlpersonal=Toda tu operatoria y tus gastos personales integrados!  Entérate de como viene tu negocio freelance!  El P&L Personal es un reporte con alto valor agregado, ya que integra tus ingresos, así como los egresos derivados, tanto de tus proyectos como de tus gastos personales.  Este reporte te ayuda a entender donde estas parado financieramente.
+
+
+
+
+
+
+
+reports.description.pnlproject=Cada proyecto que hagas tiene un P&L asociado.  Te ayuda a entender que tan bien cierra el margen de tu proyecto.  Te muestra los ingresos derivados de tus facturas y los gastos que has registrando. Puedes seleccionar y comparar hasta tres proyectos en este reporte.
+
+
+
+
+
+
+
+reports.description.invoiceproject=Cuanto facturé en lo que va del año?  A quién?  Cuándo?  Todas estas respuestas en un solo gráfico.
+
+
+
+
+
+
+
+reports.description.expenseproject=Aqui veras los gastos que recuperas cuando le haces una factura a un cliente.  Puedes seleccionar y comparar hasta tres proyectos en este reporte.
+
+
+
+
+
+
+
+reports.description.billablevsnonbillable=Los gastos afectan tu margen?  Estas seguro? Esta herramienta te permite ver si lo que estas haciendo con tus gastos te beneficia o no.  Conoce el impacto real en tus finanzas personales, de lo que dejas de facturarle a tu cliente.
+
+
+
+
+
+
+
+reports.description.marginvsuser=Esta herramienta te permite tener un punto de referencia de tu margen como freelancer, respecto del promedio de nuestros usuarios.  
+
+
+
+
+
+
+
+reports.description.cobranzas=Cuanto facturé en lo que va del año?  A quién?  Cuándo?  Todas estas respuestas en un solo gráfico
+
+
+
+
+
+
+
+reports.description.expensepersonal=Si, si… todos juntos y bien ordenaditos!  Analizalos yendo de lo general a lo puntual e identifica los desvíos y las oportunidades de ahorro basadas en tu historial de gastos.
+
+
+
+
+
+
+
+
+
+
+
+month.1=Enero
+
+
+
+month.2=Febrero
+
+
+
+month.3=Marzo
+
+
+
+month.4=Abril
+
+
+
+month.5=Mayo
+
+
+
+month.6=Junio
+
+
+
+month.7=Julio
+
+
+
+month.8=Agosto
+
+
+
+month.9=Setiembre
+
+
+
+month.10=Octubre
+
+
+
+month.11=Noviembre
+
+
+
+month.12=Diciembre
+
+
+
+
+
+
+
+cloudlance=Cloudlance
+
+
+
+slogan= - Herramientas integradas para freelancers -
+
+
+
+
+
+
+
+container.menu.edit=Edita tu perfil 
+
+
+
+container.menu.history=Historial
+
+
+
+container.menu.logout=Salir
+
+container.menu.about=Acerca de
+
+
+
+
+
+
+
+about=Acerca de
+
+
+
+
+
+
+
+new=Nuevo
+
+
+
+client=Cliente
+
+
+
+project=Proyecto
+
+
+
+invoice=Factura
+
+
+
+expense=Gasto
+
+
+
+clients=Clientes
+
+
+
+projects=Proyectos
+
+
+
+invoices=Facturas
+
+
+
+expenses=Gastos
+
+
+
+reports=Reportes
+
+
+
+
+
+
+
+searchConcept=Que estas buscando?
+
+
+
+search=Buscar
+
+
+
+id=Id
+
+
+
+invoiceDate=Fecha de factura
+
+
+
+status=Status
+
+
+
+purchaseOrder=Orden de Compra
+
+
+
+collectionDate=Fecha de Cobro
+
+
+
+preCollectionDate=Aviso de Cobro
+
+
+
+currency=Moneda
+
+
+
+amount=Monto
+
+
+
+
+
+
+
+client=Cliente
+
+
+
+company=Compañía
+
+
+
+email=E-mail
+
+
+
+country=País
+
+
+
+city=Ciudad
+
+
+
+
+
+
+
+newClient=Nuevo Cliente
+
+
+
+userData=Información del Usuario
+
+
+
+contactInfomation=Información de Contacto
+
+
+
+otherInformation=Otras informaciones
+
+
+
+firstname=Nombre
+
+
+
+lastname=Apellido
+
+
+
+position=Cargo
+
+
+
+phone1=Teléfono #1
+
+
+
+phone2=Teléfono #2
+
+
+
+mobile=Móvil
+
+
+
+fax=Fax
+
+
+
+state=Estado / Provincia
+
+
+
+address=Dirección
+
+
+
+zipCode=Código postal
+
+
+
+skype=Skype
+
+
+
+twitter=Twitter
+
+
+
+linkedin=LinkedIn
+
+
+
+web=Web
+
+
+
+dateofbirth=Fecha de nacimiento
+
+
+
+save=Guardar
+
+
+
+
+
+
+
+editInfo=Editar información
+
+
+
+cancel=Cancelar
+
+
+
+projectName=Proyecto
+
+
+
+status=Status
+
+
+
+description=Descripción
+
+
+
+invoiceDate=Fecha de factura
+
+
+
+collectionDate=Fecha de Cobro
+
+
+
+category=Categoría
+
+
+
+date=Fecha
+
+
+
+
+
+
+
+type=Tipo
+
+
+
+
+
+
+
+generateInvoice=Generar factura
+
+
+
+
+
+
+
+billingInformation=Información de Facturación
+
+
+
+bill=Facturar a
+
+
+
+user=Usuario
+
+
+
+to=Facturar a
+
+
+
+from=Factura de
+
+
+
+items=Items
+
+
+
+expenseItems=Item de Gastos
+
+
+
+quantity=Cantidad
+
+
+
+project=Proyecto
+
+
+
+
+
+
+
+merchant=Proveedor
+
+
+
+expenseData=Datos del Gasto
+
+
+
+billable= Facturable
+
+
+
+image=Imagen
+
+
+
+
+
+
+
+yes=Si
+
+
+
+no=No
+
+
+
+
+
+
+
+otherData=Otras informaciones
+
+
+
+purchaseOrder=Orden de Compra
+
+
+
+collectionDate=Fecha de Cobro
+
+
+
+noticeDate=Aviso de Cobro
+
+
+
+
+
+
+
+removeItemConfirm=Confirma que quieres borrar este ítem?
+
+
+
+newInvoice=Nueva Factura
+
+
+
+total=Total
+
+
+
+modifyExpenseItems=Modificar Items de Gasto
+
+
+
+addItem=Agregar item
+
+
+
+selectExpenses=Seleccionar Gastos
+
+
+
+addItems=Agregar items
+
+
+
+item=Item
+
+
+
+items=Items
+
+
+
+
+
+
+
+newExpense=Nuevo Gasto
+
+
+
+projectRelated=Gasto de Proyecto
+
+
+
+personal=Personal
+
+
+
+
+
+
+
+myprofile=Mi Perfil
+
+
+
+businessInformation=Datos de tu negocio
+
+
+
+usualExpenseManagement=Como sueles gestionar sus gastos?
+
+
+
+receivePayments=Como sueles recibir tus pagos?
+
+
+
+phones=Teléfonos
+
+
+
+taxIdType=Tipo de ID impositivo
+
+
+
+taxIdNumber=Numero ID impositivo
+
+
+
+businessDescription=Descripción de tu negocio
+
+
+
+logo=Logo
+
+
+
+
+
+
+
+paypal=Paypal
+
+
+
+cheque=Cheque
+
+
+
+creditCard=Tarjeta de Crédito
+
+
+
+wireTransfer=Transferencia Bancaria
+
+
+
+
+
+
+
+report=Selecciona Reporte
+
+
+
+year=Año
+
+
+
+viewExample=Ver ejemplo
+
+
+
+generateReport=Generar Reporte
+
+
+
+
+
+
+
+pnlpersonal=Reporte P&L Personal
+
+
+
+cobranzas=Reporte de Cobranzas
+
+
+
+pnlProject=Reporte P&L por Proyecto
+
+
+
+expensesPersonal=Reporte de Gastos Personales
+
+
+
+expensesProject=Reporte de Gastos por Proyecto
+
+
+
+billableVsNonBillable=Reporte de Gastos Facturables vs No Facturables
+
+
+
+invoicingPerProject=Reporte de Facturación por Proyecto
+
+
+
+
+
+
+
+yearToDate=Ultimo Año
+
+
+
+perYear= Por Año
+
+
+
+total=Total
+
+
+
+perProject=Por Proyecto
+
+
+
+perClient=Por Cliente
+
+
+
+allClients=Todos los Clientes
+
+
+
+from=Factura de
+
+
+
+to=Facturar a
+
+
+
+
+
+
+
+reportDetails=Detalles del Reporte
+
+
+
+
+
+
+
+createClientFirst=Debes crear un cliente primero 
+
+
+
+createProjectFirst=Debes crear un proyecto primero 
+
+
+
+
+
+
+
+deleteExpense=Borrar Gasto
+
+
+
+confirmDelete=Confirmas que quieres borrar este gasto?
+
+
+
+
+
+
+
+dashboard=Dashboard
+
+
+
+actualYear=Año actual
+
+
+
+personalExpenses=Gastos Personales
+
+
+
+incomes=Ingresos
+
+
+
+snapshot=Instantanea
+
+
+
+thisYearCashed=Cobrados este año
+
+
+
+moneyReceivable=A cobrar
+
+
+
+moneyOverdue=Vencidos
+
+
+
+
+
+
+
+nextInvoices=Proximas Facturas
+
+
+
+readyToCollectInvoices=Facturas listas para cobrar
+
+
+
+expiredInvoices=Facturas vencidas
+
+
+
+
+
+
+
+waterfallTitle=Año Actual Ingresos/Egresos
+
+
+
+positiveBalance=Balance Positivo
+
+
+
+income=Ingresos
+
+
+
+billableExpenses=Gastos Facturables
+
+
+
+nonBillableExpenses=Gastos No Facturables
+
+
+
+margin=Margen
+
+
+
+
+
+
+
+barsTitle=Gastos Personales
+
+
+
+barsSubtitle=Ultimo Año
+
+
+
+barsPersonalExpenses=Gastos Personales
+
+
+
+
+
+
+
+
+
+
+
+pieChartTitle=Estado de tus ingresos 
+
+
+
+pieChartEmblem=2015
+
+
+
+pieChartThisYearCashed=Cobrados
+
+
+
+pieChartReceivable=A Cobrar
+
+
+
+pieChartOverdue=Vencidos
+
+
+
+
+
+
+
+
+
+
+
+invoiceColor=Color de la Factura
+
+
+
+siteLanguage=Idioma del sitio
+
+
+
+
+
+
+
+colour.grey=Gris
+
+
+
+colour.yellow=Amarillo
+
+
+
+colour.green=Verde
+
+
+
+colour.red=Rojo
+
+
+
+colour.black=Negro
+
+
+
+colour.white=Blanco
+
+
+
+colour.blue=Azul
+
+
+
+
+
+
+
+sitelanguage.english=Ingles
+
+
+
+sitelanguage.spanish=Español
+
+
+
+
+
+
+
+projectData=Información del Proyecto
+
+
+
+numberOfInvoices=Cantidad de Facturas
+
+
+
+expenseComments=Comentario de los Gastos
+
+
+
+paymentTerms=Condiciones de Pago (días)
+
+
+
+addNewComment=Agregar Comentario
+
+
+
+comments=Comentarios
+
+
+
+newProject=Nuevo Proyecto
+
+
+
+
+
+
+
+
+
+
+
+
+
+totalCollected=Total Cobrado
+
+
+
+totalInvoiced=Total Facturado
+
+
+
+totalNonBillableExpenses=Total Gastos no Facturables
+
+
+
+totalBillableExpenses=Total Gastos Facturables
+
+
+
+billable=Facturable
+
+
+
+nonBillable=No Facturable
+
+
+
+totalPersonalExpenses=Total Gastos Personales
+
+
+
+incomePerService=Ingresos por Proyectos
+
+
+
+expenseOfInvoicedProjects=Gastos Facturables
+
+
+
+totalIncome=Total Ingreso
+
+
+
+personalExpenses=Gastos Personales
+
+
+
+totalOutcome=Total Egresos
+
+
+
+subTotal=SubTotal
+
+
+
+margin=Margen
+
+
+
+
+
+
+
+
+
+
+
+firstClient=Crea un Cliente
+
+firstProject=Crea un Proyecto
+
+firstInvoice=Crea una Factura
+
+firstExpense=Crea un Gasto
+
+firstItem=Crea un Item
+
+
+
+
+
+passwordChanged=Clave cambiada exitosamente
+
+oldPassword=Clave Antigua
+
+newPassword=Clave Nueva
+
+newPasswordAgain=Ingresa tu clave nueva otra vez
+
+changePassword=Cambia tu clave
+
+passwordIsEmpty=Debes ingresar una clave
+
+passwordsMissmatch=Claves no coincidentes
+
+passwordNotChanged=Clave NO Cambiada
+
+userOrPassIncorrect=Usuario o Clave erróneos
+
+
+
+percentage=Porcentaje
+
+
+
+error=Error
+
+
+
+preparedByCloudlance=Preparado por Cloudlance.co
+
+
+
+editExpense=Editar gasto
+
+slogan=- Herramientas integradas para freelancers -
+
+login=Login
+
+loginToYourAccount=Accede a tu cuenta o 
+
+register=Registrate
+
+keepMeSignedIn=Mantener sesión abierta
+
+forgotYourPassword=Olvidaste tu clave?
+
+resetIt=Reseteala!
+
+
+
+about.history.paragraph1=While working in a Global Consulting firm, we realized that freelance consultants is a market segment with plenty of business opportunities. Having become freelancers ourselves, we decided to develop a series of services aimed at helping this group of professionals who take the challenge of facing the world by themselves.
+
+
+
+about.history.paragraph2=Providing useful services, and pursuing the ideal to create a purposeful company, we founded Cloudlance in late 2013. We imprinted the values we expect from a company that would provide services and defined the kind of culture we wanted to see in action. Since then, we have worked extensively at developing the basis for our startup, which evolved and finally reaches you today.
+
+
+
+about.history.paragraph3=We are proud of our values and the way we conduct business. We believe in respect for others and we try to show this as a company in every interaction, in every task, with everyone both in and out of our company.
+
+
+
+about.wordFromFounder.paragraph1=Hi, I am Nicolas. I am Founder of Cloudlance, and I’m very pleased that you have taken the time to read my profile and discover the people behind this company.
+
+
+
+about.wordFromFounder.paragraph2=I was born in Argentina, I am a former Strategy Consultant, Business & Finance Manager and as a constant entrepreneur, I couldn’t resist the call from start-ups. I started my career working in the family agricultural business, which I quit to start my own Internet venture (yeah, in those crazy early internet days).
+
+
+
+about.wordFromFounder.paragraph3=I then ventured in technology, with a new company where we developed specific computer hardware. Having sold that company, I joined a big multinational consulting firm and started working all over Latin America, to finally land in a boutique Global Consulting Company specialized in leadership and changing organizational cultures.
+
+
+
+about.wordFromFounder.paragraph4=I had realized that I could design the best processes in the world but, at the end of the day, it was people who executed them… and if these people where not aligned with the values of the company, they would not feel compelled to do them as expected. So I started to work on the human side of business. That is, understanding what made the companies better.
+
+
+
+about.wordFromFounder.paragraph5=My aspiration for Cloudlance is for this company to evolve as a business and a model were people can work happy because they see themselves as a living part of it and working in such a company means something important to them… because it surely means something to me!
+
+
+
+about.wordFromFounder.paragraph6=Nicolas R - Founder
+
+
+
+aboutCloudlance=Acerca de Cloudlance
+
+aWordFromOurFounder=Mensaje del Fundador
+
+history=Historia
+
+
+
+
+
+
+
+noExisteProyectoParaTomarLaCurrency=No se ha seleccionado un proyecto del cual tomar la moneda
+
+
+
+inOrderToResetPassword=Necesitaremos tu email para resetear tu clave
+
+resetPassword=Resetear tu clave?
+
+confirmAccount=Confirma tu nueva cuenta
+
+checkInbox=Verifica tu inbox y confirma tu cuenta
+
+registerNewAccount=Registra una nueva cuenta
+
+wrongEmail=Dirección de Correo Invalida!
+
+goBack=Volver
+
+reset=Resetear
+
+faqs=Frecuently Asked Questions

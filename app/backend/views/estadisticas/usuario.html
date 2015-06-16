@@ -1,0 +1,85 @@
+<div class="row">
+	<ol class="breadcrumb">
+		<li><a href="{WEB_PATH}"><span class="glyphicon glyphicon-home"></span></a></li>
+		<li class="active"><a href="{WEB_PATH}user-stats">Estadistica por Usuario</a></li><li class="active">Guzman Andreatta</li>
+	</ol>
+</div><!--/.row-->
+
+<div class="row">
+	<div class="col-lg-12">
+		<h1 class="page-header">Estadisticas / Guzman Andreatta</h1>
+	</div>
+</div><!--/.row-->
+
+<div class="row">
+	<div class="col-xs-6 col-md-3">
+		<div class="panel panel-default">
+			<div class="panel-body easypiechart-panel">
+				<h4>Campus Recorrido</h4>
+				<div class="easypiechart" id="easypiechart-blue" data-percent="25%" ><span class="percent">25%</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-3">
+		<div class="panel panel-default">
+			<div class="panel-body easypiechart-panel">
+				<h4>Lecciones Finalizadas</h4>
+				<div class="easypiechart" id="easypiechart-orange" data-percent="33" ><span class="percent">33%</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-3">
+		<div class="panel panel-default">
+			<div class="panel-body easypiechart-panel">
+				<h4>Repeticiones por examen</h4>
+				<div class="easypiechart" id="easypiechart-teal" data-percent="29" ><span class="percent">29%</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-3">
+		<div class="panel panel-default">
+			<div class="panel-body easypiechart-panel">
+				<h4>Aciertos en el 1er intento</h4>
+				<div class="easypiechart" id="easypiechart-red" data-percent="71" ><span class="percent">71%</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!--/.row-->
+
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="panel panel-default">
+			<div class="panel-heading">Site Traffic Overview</div>
+			<div class="panel-body">
+				<div class="canvas-wrapper">
+					<canvas class="main-chart" id="line-chart"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="panel panel-default">
+			<div class="panel-heading">Site Traffic Overview</div>
+			<div class="panel-body">
+				<div class="canvas-wrapper">
+					<canvas class="main-chart" id="user-year-line-chart"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script>
+	UserPerformance();
+</script>

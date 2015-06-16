@@ -1,0 +1,99 @@
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="{JS_PATH}geochart.js"></script>
+
+<div class="row">
+	<ol class="breadcrumb">
+		<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+		<li class="active">Estadisticas por Pais</li>
+	</ol>
+</div><!--/.row-->
+
+<div class="row">
+	<div class="col-lg-12">
+		<h1 class="page-header">
+			Estadisticas por Pais
+			<div style="float:right">
+				<div class="form-group">
+					<label style="font-size:16px;font-weight: 200;">Elige un pais</label>
+					<select class="form-control">
+						<option>Argentina</option>
+						<option>Chile</option>
+						<option>Colombia</option>
+						<option>Ecuador</option>
+						<option>Mexico</option>
+						<option>Venezuela</option>
+					</select>
+				</div></div>
+			</h1>
+
+		</div>
+	</div><!--/.row-->
+
+
+
+
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">Status</div>
+				<div class="panel-body">
+					<div class="canvas-wrapper">
+						<canvas class="main-chart" id="bar-chart" height="200" width="600"></canvas>
+					</div>
+					<div id="bar-chart-legend" class="chart-legend"></div>
+				</div>
+			</div>
+		</div>
+	</div><!--/.row-->		
+
+
+
+
+
+
+
+
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+			<div class="panel panel-default">
+				<div class="panel-body easypiechart-panel">
+					<h4>Usuarios Registrados</h4>
+					<div class="easypiechart" id="easypiechart-blue" data-percent="100" ><span class="percent">163</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<div class="panel panel-default">
+				<div class="panel-body easypiechart-panel">
+					<h4>Usuarios Activos</h4>
+					<div class="easypiechart" id="easypiechart-orange" data-percent="25" ><span class="percent">41,25</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<div class="panel panel-default">
+				<div class="panel-body easypiechart-panel">
+					<h4>Repeticiones por examen</h4>
+					<div class="easypiechart" id="easypiechart-teal" data-percent="29" ><span class="percent">29%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<div class="panel panel-default">
+				<div class="panel-body easypiechart-panel">
+					<h4>Aciertos en el 1er intento</h4>
+					<div class="easypiechart" id="easypiechart-red" data-percent="71" ><span class="percent">71%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--/.row-->
+<script type="text/javascript">
+	generalStats();
+</script>
+

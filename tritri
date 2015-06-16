@@ -1,0 +1,282 @@
+<?php 
+
+// echo "Hola";
+// exit;
+include_once( dirname(__FILE__).'/system/config.php' );
+
+array_shift($argv);
+function linea($value){
+	
+
+	echo $value."\n";
+
+	
+}
+
+function returnFunctionName($val){
+	$stringed = explode("_", $val);
+	$toreturn = '';
+	for ($i=0; $i<count($stringed); $i++){
+		$toreturn = $toreturn.ucfirst($stringed[$i]);
+	}
+	return $toreturn;
+}
+
+function createApp($app_name) {
+	$location = dirname(__FILE__);
+	linea($location."/app/".$app_name);
+	mkdir($location."/app/".$app_name, 0755, true);
+	mkdir($location."/app/".$app_name."/controllers");
+	mkdir($location."/app/".$app_name."/system");
+	mkdir($location."/app/".$app_name."/views");
+}
+function createLogic($tablename){
+	$className = returnFunctionName($tablename);
+	$textlogic = "
+	<?php
+
+
+	class Logic".$className." extends SeedDb {
+
+		public static \$Table = '".$tablename."';
+
+		public function __construct() {
+		}
+
+		public static function doList(\$query = '1=1') {
+			self::setTable(self::\$Table);
+			\$result =  self::Where(\$query);
+
+			if (\$result->num_rows > 0) { return \$result; } 
+			return false;
+		}
+
+		public static function listAll() {
+			self::setTable(self::\$Table);
+			\$result =  self::doList('1 = 1');
+			return \$result;
+		}
+
+		public static function getByid(\$id) {
+			self::setTable(self::\$Table);
+			\$result =  parent::Where('id ='.\$id);
+			return \$result;
+		}
+
+
+
+
+		public static function update(\$fields) {
+			self::setTable(self::\$Table);
+			\$seedfields = array();
+
+			foreach (\$fields as \$key => \$value) {
+				if (\$key != 'id') {
+					\$seedfields[\$key] = \$value['value'];
+				}
+			}
+			if (\$fields['id']['value'] != 0) {			
+				return parent::doUpdate(\$fields['id']['value'], \$seedfields);
+			}
+			else {
+				return parent::doInsert(\$seedfields, false);
+			}
+
+		}	
+
+	}
+
+	
+	?>
+	";
+
+	createFile(MODULES_PATH.$className.".php" , $textlogic);
+
+}
+
+function createModel($modelname) {
+	$className = returnFunctionName($modelname);
+	$textfields = '';
+	$textfunc = '';
+	$columns = SeedDb::get_columns($modelname);
+	if (count($columns) >0) {
+		for ($i=0;$i<count($columns); $i++) {
+			if ($columns[$i] == 'id') {
+				$textfields = $textfields."
+				\$this->fields['".$columns[$i]."']['type'] = 'unset';
+				\$this->fields['".$columns[$i]."']['value'] = 0;
+				";	
+			}
+			else {
+				$textfields = $textfields."
+				\$this->fields['".$columns[$i]."']['type'] = 'unset';
+				";	
+			}
+			if ($columns[$i] != 'created_by' && $columns[$i] != 'created' && $columns[$i] != 'updated') {
+
+				$textfunc = $textfunc."
+
+				public function set".returnFunctionName($columns[$i])."(\$val) {
+					\$this->fields['".$columns[$i]."']['value'] = \$val;
+				}
+
+				public function get".returnFunctionName($columns[$i])."() {
+					return \$this->fields['".$columns[$i]."']['value'];
+				}
+
+
+				";
+
+			}
+
+
+
+
+
+		}
+	}
+
+
+	$modeltext ="	
+	<?php
+	class MDL".$className." {
+		var \$fields = array();
+
+		public function __construct() {
+			".$textfields."
+		}
+
+		".$textfunc."
+
+
+		public function retrieve() {
+			\$result = Logic".$className."::doList('id = '.\$this->getId());
+			if (\$result->num_rows == 0) {
+				\$this->setId(0);
+				return false; 
+			}
+			\$status = \$result->fetch_object();
+			foreach (\$this->fields as \$key => \$value) {
+				\$this->fields[\$key]['value'] = \$status->\$key;
+
+			}
+			return true;
+		}
+
+		public function update() {
+
+			\$result = Logic".$className."::update(\$this->fields);
+			return \$result;
+		}
+	}
+	?>
+	";
+
+	createFile(MODELS_PATH.$modelname.".php" , $modeltext);
+}
+
+function createFile($filename, $txt) {
+	if (file_exists($filename)) {
+		linea( "El archivo ".$filename." ya existe");
+		return false;
+	}
+	$myfile = fopen($filename, "w") or die("Unable to open file!");
+	//$txt = "Jane Doe\n";
+	fwrite($myfile, $txt);
+	fclose($myfile);
+}
+
+if (count($argv) >0) {
+	if ($argv[0] == "testSQL") {
+		$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+
+		if (mysqli_connect_errno()) {
+			printf("Falló la conexión: %s\n", mysqli_connect_error());
+			exit();
+		}
+		linea( "CONEXCTADA CORRECTAMENTE");
+
+	}
+	elseif ($argv[0] == "createApp") {
+		if (array_key_exists(1, $argv)) {
+			createApp($argv[1]);	
+		}
+		else {
+			linea("Error: necesito una nombre para la app");
+		}
+	}
+	elseif ($argv[0] == "listTables") {
+
+
+		$tables = SeedDb::get_tables();
+		if (count($tables) >0) {
+			for ($i=0;$i<count($tables); $i++) {
+				linea($tables[$i]);
+			}
+		}
+	}
+	elseif ($argv[0] == "help") {
+
+
+		echo("Comandos disponibles:");
+		echo("	createApp");
+		echo("	listTables");
+		echo("	listColumns");
+		echo("	createModel");
+		echo("	createLogic");
+		echo("	createMods");
+	}
+
+	elseif ($argv[0] == "listColumns") {
+
+
+		$columns = SeedDb::get_columns($argv[1]);
+		if (count($columns) >0) {
+			for ($i=0;$i<count($columns); $i++) {
+				linea($columns[$i]);
+			}
+		}
+	}
+	elseif ($argv[0] == "createModel") {
+
+		createModel($argv[1]);
+	}
+	elseif ($argv[0] == "createLogic") {
+
+		createLogic($argv[1]);
+	}
+	elseif ($argv[0] == "createMods") {
+
+		createLogic($argv[1]);
+		createModel($argv[1]);
+	}  elseif ($argv[0] == "addUsers") {
+		addUsers($argv[1]);
+	}
+}
+else {
+	echo("Comandos disponibles:");
+	echo("	createApp");
+	echo("	listTables");
+	echo("	listColumns");
+	echo("	createModel");
+	echo("	createLogic");
+	echo("	createMods");
+	echo("	addUsers");
+}
+
+function addUsers($file){
+	$handle = fopen($file, "r");
+	if ($handle) {
+		while (($line = fgets($handle)) !== false) {
+        $query = "INSERT INTO `seedwalk_bop_beta`.`users_accounts` (`id`, `email`, `pwd`, `user_type`, `prefix`, `firstname`, `lastname`, `company`, `title`, `address`, `city`, `state`, `zipcode`, `country`, `phone_primary`, `currency`, `last_currency`, `phone_mobile`, `phone_fax`, `phone_secondary`, `csa_id`, `client_id`, `legacy_user_id`, `dob`, `payments_rcv_vy_cheque`, `payments_rcv_vy_cc`, `payments_rcv_vy_paypal`, `payments_rcv_vy_transfer`, `wire_transfer_instructions`, `invoice_language`, `invoice_colour`, `tax_id_type`, `tax_id_number`, `description_of_business`, `usual_expense_management`, `skype`, `twitter`, `linkedin_url`, `web_url`, `smartphone_os`, `logo_id`, `language`, `created_by`, `created`, `updated`, `pwdrecoveryhash`, `pwdrecoverytime`, `register_hash`, `user_activated`, `cookieHash`, `deleted`) VALUES (NULL, '".trim(preg_replace('/\s\s+/', '', $line))."', '80f259e8ea791b4ab3de88047c12a9e0', 'client', 'prefix.mr', 'FirstName', 'LastName', 'Cloudlance', '', 'Calle 1234 - Piso 4A', 'Capital Federal', 'Buenos Aires', '1346', 'AR', '5411-333-7777', '176', '176', '54911-5333-7777', '5411-333-7777', '0', '0', '0', '', '1985-10-12 08:15:00', '1', '0', '0', '1', 'Banco Nacional Cuenta: 5678-987654/03', '2', '7', 'CUIT', '01-2345678-9', 'Tester', '', '', '', '', '', '3', '0', '5', '0', '2015-05-15 22:30:00', '2015-05-15 22:30:00', '', '0000-00-00 00:00:00', '', '1', '0', '0');";
+        SeedDb::Query($query);
+		}
+
+		fclose($handle);
+	} else {
+     echo("ERROR al abrir el archivo ".$file);
+	}
+}
+
+?>
+

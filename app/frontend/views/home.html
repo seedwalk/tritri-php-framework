@@ -1,0 +1,191 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Seedwalk">
+	<meta name="author" content="Seedwalk">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<title>Astellas University</title>
+	<link rel="stylesheet" type="text/css" href="css/video.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
+	<link rel="stylesheet" type="text/css" href="css/mediaq.css"/>
+
+	<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="modernizr.2.5.3.min.js"></script>
+	<script src="js/perfect-scrollbar.jquery.js"></script>
+	<script src="js/perfect-scrollbar.js"></script>
+	<script src="js/video.js"></script>
+	<script src="js/dataHtml.js"></script>
+	<script src="js/progressBar.js"></script>
+	<script src="js/manager.js"></script>
+
+
+
+	
+
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="icon" href="favicon.ico">
+	
+
+
+
+</head>
+<body>
+	<!-- FONDO -->
+	<div id="fondo">
+		<div id="gradient"></div>
+	</div>
+	<!-- FIN FONDO -->
+
+	<div id="mapaContainer">
+		<div onclick="manager.showWelcome()" class="islaFlotante"></div>
+		<div class="HomeContent">
+			<div class="login">
+				<h1>Bienvenido a la <span class="boldTitle">Universidad de Urología<span></h1>
+				<p>General description Maecenas gravida elementum purus, at mattis lectus placerat a. Donec sodales vehicula congue. Sed tincidunt vulputate nunc eu egestas. General description .</p>
+
+				<div class="loginForm">
+					<input class="loginInput" name="email" placeholder="E-mail" type="text" />
+					<input class="loginInput"name="password" placeholder="Contraseña" type="password" />
+					<input class="loginBtn" name="btnLogin" value="Ingresar" type="button" onclick="manager.doLogin();" />
+				</div>
+				<div class="loginTip"></div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- TOP MENU COMIENZO -->
+
+	<div class="topMenu">
+		<div class="topLogo"></div>
+
+		<div class="iconsContainer">
+			<div onclick="manager.startUniversidad()" class="topIcon university" title="Universidad"></div>
+			<div class="topIcon biblioteca" title="Biblioteca" onclick="manager.startLibrary()"></div>
+			<div class="topIcon logros" 	title="Logros"></div>
+		</div>
+		<div class="topIcon notifications"></div>
+	</div>
+
+	<!-- TOP MENU FIN -->
+
+
+
+	<!-- WELCOME DIV -->
+	<div class="welcomeDiv">
+		<h1>Bienvenido al edificio de <span class="strongh1">Vejiga Hiperactiva</span></h1>
+		<p>General description Maecenas gravida elementum purus, at mattis lectus placerat a. Donec sodales vehicula congue. Sed tincidunt vulputate nunc eu egestas. General description Maecenas gravida elementum purus, at mattis lectus placerat a. General descriptioxn Maecenas gravida elementum purus, at mattis lectus placerat a. Donec sodales vehicula congue. Sed tincidunt vulputate nunc eu egestas. General description Maecenas gravida elementum purus, at mattis lectus placerat a. 
+		</p>
+	</div>
+
+	<!-- FIN WELCOME DIV -->
+
+
+
+
+
+
+
+
+	<!-- LESSON SIDE BAR -->
+
+	<div class="lessonSideBar">
+		<div class="lessonConainter">
+			
+		</div>
+
+	</div>
+
+	<!-- FIN LESSON SIDE BAR -->
+
+
+
+
+	<!-- BIBLIOTECA -->
+	<div class="bilioteca-header">
+		<div class="textContainer">Bilbioteca</div>
+	</div>
+
+
+	<div class="bibliotecaSideBar">
+		<div class="bibliotecaSidebar-container">
+
+			<div class="input-widget">
+				<label>Por nombre</label>
+				<input class="search" type="text" placeholder="Buscar" />
+
+			</div>
+
+			<div class="input-widget">
+				<label>Por escuela</label>
+				<select>
+					<option>Todos</option>
+				</select>
+			</div>
+
+			<div class="input-widget">
+				<label>Por tratamiento</label>
+				<select>
+					<option>Todos</option>
+				</select>
+			</div>
+
+
+			<div class="input-widget">
+				<label>Por tema</label>
+				<div class="listaTemas">
+					<div class="temaPerse"><input type="checkbox" id="tema-1"><label for="tema-1" class="checkbox">lorem ipsum</label></div>
+					<div class="temaPerse"><input type="checkbox" id="tema-2"><label for="tema-2" class="checkbox checkbox-active">lorem ipsum</label></div>
+					<div class="temaPerse"><input type="checkbox" id="tema-3"><label for="tema-3" class="checkbox checkbox-active">lorem ipsum</label></div>
+					<div class="temaPerse"><input type="checkbox" id="tema-4"><label for="tema-4" class="checkbox checkbox-active">lorem ipsum</label></div>
+					<div class="temaPerse"><input type="checkbox" id="tema-5"><label for="tema-5" class="checkbox checkbox-active">lorem ipsum</label></div>
+					<div class="temaPerse"><input type="checkbox" id="tema-6"><label for="tema-6" class="checkbox checkbox-active">lorem ipsum</label></div>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+
+	<!-- FIN DE BIBLIOTECA -->
+
+
+
+
+
+
+	<!-- PROGRESS  BAR -->
+	<div class="progressBarHolder">
+		<div class="progresBarContainer">
+			
+		</div>
+	</div>
+	<!-- FIN PROGRESS  BAR -->
+
+
+
+
+	<!-- VIDEO FRAME -->
+	<div class="videoContentDiv">
+		<video id="lessonVideo" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="100%" height="100%"  data-setup='{}'>
+			<source src="videos/video.mp4" type='video/mp4' />
+			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+		</video>
+	</div>
+	<!-- FIN DE VIDEO FRAME -->
+
+	<div class="notificationsPanel">
+		<div class="notificationPanelConatiner">	
+		</div>
+	</div>
+</body>
+</html>

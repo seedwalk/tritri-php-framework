@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+
+#Options +FollowSymLinks
+RewriteEngine On
+RewriteRule \.(js|css|jpe?g|gif|ico|png|swf|mp4|mpeg|pdf|zip|svg|eot|ttf|woff|map)$ - [L]
+
+RewriteRule ^(.*)$ index.php?params=$1 [L,QSA]
+</IfModule>
